@@ -47,6 +47,7 @@
 
 .header__theme-menu-button_active {
   border-color: var(--accent-color);
+  pointer-events: none;
 }
 
 .header__theme-menu-button:hover {
@@ -200,10 +201,6 @@
 .footer-title {
   justify-self: center;
   text-shadow: 2px 2px 0 var(--accent-color);
-}
-
-.header__theme-menu-button_active {
-  pointer-events: none;
 }
 
 @media (min-width: 768px) {
